@@ -409,6 +409,7 @@ section {
   background: #fff;
 }
 
+
 .facts .count-box i {
   position: absolute;
   top: -25px;
@@ -1174,8 +1175,4 @@ section {
   border-radius: 20px;
   height: 400px;
   box-shadow: 5px 5px 20px black;
-}
-
-.btner{
-  
 }
