@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+
+
+.container1 {
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.codepen-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-right: 1rem;
+  padding: 1rem;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.codepen-card:before {
+  content: ' ';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 88%;
+  height: 88%;
+  background: #0563bb94;
+  border-radius: 15px;
+  z-index: -1;
+  transition: all 150ms ease;
+}
+
+.codepen-card:hover:before {
+  width: 100%;
+  height: 100%;
+  transition: all 300ms ease;
+}
+
+.codepen-card-image {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.codepen-card-user {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.codepen-card-user-image {
+  width: 50px;
+  border-radius: 5px;
+}
+
+.codepen-card-user-details {
+  flex: 1;
+  color: white;
+  padding: 0 0.5rem;
+}
+
+.codepen-card-user-details > .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.codepen-card-user-details > .name {
+  font-size: 0.875rem;
+  margin: 0;
+}
