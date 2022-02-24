@@ -10,6 +10,18 @@
   border: none;
 }
 
+@media screen and (min-width:1025px) {
+.cont{
+  margin-left: 18%;
+}
+}
+
+@media (min-width:961px), (min-width:641px){
+.cont{
+  margin-left: 13%;
+}
+}
+
 .card-img-body{
   transition: all .4s ease-in-out;
   border-radius: 1.5rem;
@@ -93,10 +105,14 @@
 
 @media only screen and (max-width: 576px){
   .card-img-body{
-    height: 170px !important;
+    height: 160px !important;
+    width: 100%;
   }
   .graph{
     margin-right: 0px !important;
+  }
+  .cont{
+    margin-left: 0;
   }
 }
 
