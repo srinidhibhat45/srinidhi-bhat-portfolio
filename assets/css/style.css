@@ -5,6 +5,117 @@
 * License: https://bootstrapmade.com/license/
 */
 
+//Bootstrap Overrides
+.card {
+  border: none;
+}
+
+@media screen and (min-width:1025px) {
+.cont{
+  margin-left: 18%;
+}
+}
+
+@media (min-width:961px), (min-width:641px){
+.cont{
+  margin-left: 13%;
+}
+}
+
+.card-img-body{
+  transition: all .4s ease-in-out;
+  border-radius: 1.5rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  margin-right: 100px !important;
+  max-width: 100%;
+  height: 200px;
+}
+
+.card-img-body:hover{
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3)
+}
+
+.vgr-cards .card {
+  display: flex;
+  flex-flow: wrap;
+  flex: 100%;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 576px) {
+  .vgr-cards .card {
+    display: block;
+ }
+}
+
+.vgr-cards .card-img-body {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 576px) {
+  .vgr-cards .card-img-body {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+ }
+}
+
+.vgr-cards .card-img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 1140px) {
+  .vgr-cards .card-img {
+    margin: 0;
+    transform: none;
+    width: 100%;
+    height: auto;
+ }
+}
+
+.vgr-cards .card-body {
+  flex: 2;
+  padding: 0 0 0 1.25rem;
+}
+
+@media (max-width: 576px) {
+  .vgr-cards .card-body {
+    padding: 0;
+ }
+ .card-img-body{
+  margin-left: 0px !important;
+ }
+}
+
+@media only screen and (max-width: 1000px){
+.card-img-body{
+  height: 150px !important;
+}
+.graph{
+  margin-right: 100px !important;
+}
+}
+
+@media only screen and (max-width: 576px){
+  .card-img-body{
+    height: 160px !important;
+    width: 100%;
+  }
+  .graph{
+    margin-right: 0px !important;
+  }
+  .cont{
+    margin-left: 0;
+  }
+}
+
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
