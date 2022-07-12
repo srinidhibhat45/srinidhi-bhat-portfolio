@@ -4864,7 +4864,7 @@ input[type="button"].btn-block {
 .card-img-top,
 .card-img-bottom {
   -ms-flex-negative: 0;
-  flex-shrink: 0;
+  flex-shrink: 10;
   width: 100%;
 }
 
