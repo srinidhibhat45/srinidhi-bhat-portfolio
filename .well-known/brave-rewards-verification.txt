@@ -1,4 +1,4 @@
-This is a Brave Rewards publisher verification file.
+This is a Brave Creators publisher verification file.
 
 Domain: srinidhibhat.netlify.app
-Token: 52ddf6686d5378a8e78191944bee9b4a273ca1427ec57a4f78518c48e17ba132
+Token: a150abc40dde11af5f91cb3ca87eb750129a0698298adfec318d50a2e481bf88
