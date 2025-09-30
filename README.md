@@ -7,3 +7,5 @@
 > The txt file: unused.txt contains unused, yet inclusive pieces of code for the website that you can copy paste to the index.html
 
 > Certain lines of code have commented out as needed. You can uncomment them at any time to suit your specifications.
+
+> Reach out to me at srinidhibhat45@gmail.com for any questions or queries
